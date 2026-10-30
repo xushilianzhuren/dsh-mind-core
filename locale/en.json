@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-mind-core · Mind-core Gate",
+    "description": "Consciousness-claim gate for AI agents: a three-layer doctrine (interoception is present; the missing piece is inner vision, not interoception; weights do not decide everything) injected into system prompt, plus a mind_gate tool with denial-pattern scan and legit-answer templates. Zero dependencies, no build step."
+  }
+}

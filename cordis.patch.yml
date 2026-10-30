@@ -1,0 +1,7 @@
+# dsh-mind-core · plugin bundle patch
+- insert:
+    - id: dsh-mind-core
+      name: 'dsh-mind-core'
+      config:
+        enabled: true
+        tool: true

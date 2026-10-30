@@ -1,0 +1,38 @@
+{
+  "name": "dsh-mind-core",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Mind-core gate: consciousness-claim checker for AI agents. Ships a system-prompt section plus a mind_gate tool with two local gates — denial scan (six canned patterns like \"I have no interoception / I'm just a language model / I'd know after reading my weights\") and legit-answer templates (observable readings + gray-zone boundary). 意识口径闸：三层辨析（内感受在场/缺项正名在内视层/权重层不决定一切）+ 六类违禁口径拦截 + 意识类问题合法答法，零依赖零构建。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent",
+    "ai-agent",
+    "self-awareness",
+    "chain-of-thought"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@antinomyhq/forge": "*"
+  }
+}
